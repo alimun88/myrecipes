@@ -1,5 +1,17 @@
 <nav class="footer">
-  <div class="nav navbar">
-    <p class="center">Crafted with love by <a href="#">Mohammad Ali</a></p>
+  <div class="nav navbar navbar-default">
+    <ul class="nav navbar-nav navbar-left">
+      <li><%= link_to root_path do %>
+        <i class="glyphicon glyphicon-home"></i>
+          Home
+      <% end %></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="indent-right"><%= link_to root_path do %>
+        <i class="glyphicon glyphicon-list-alt"></i>
+          About
+      <% end %></li>
+    </ul>
+    <p class="footer-text center">Crafted with love by <a href="https://alpha-blog-mohammad-liaquat.herokuapp.com/">Mohammad Ali</a></p>
   </div>
 </nav>

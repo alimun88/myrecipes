@@ -8,6 +8,8 @@ gem 'rails', '~> 5.0.0'
 gem 'puma', '~> 3.0'
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
